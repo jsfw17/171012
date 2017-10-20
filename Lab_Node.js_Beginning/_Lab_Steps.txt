@@ -205,7 +205,6 @@ app.listen(port, host);
 
 console.log("Starting...");
 var fs = require("fs");
-var config = JSON.parse(fs.readFileSync("config.json"));
 var host = process.env.IP;
 var port = process.env.PORT;
 var express = require("express");
